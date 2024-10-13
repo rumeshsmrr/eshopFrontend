@@ -1,0 +1,153 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  color: black;
+  z-index: 8; /* Higher z-index */
+  background-color: transparent;
+ 
+}
+
+.whiteBar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 10px;
+  z-index: 100; /* Very high z-index to always be on top */
+}
+
+.middleNav {
+  width: 25%;
+  height: 80px;
+  background-color: transparent;
+  margin-top: 0;
+
+
+  z-index: 5; /* Lower z-index than navPart1 and navPart2 */
+  position: relative; /* Ensure position is set to relative or absolute for z-index to work */
+}
+
+.navPart1 {
+  display: flex;
+  position: relative; /* Added to ensure z-index works */
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0px 20px 0;
+  background-color: white;
+  width: 60%;
+  padding: 1rem 2rem;
+  height: 50px;
+  color: black;
+  z-index: 10; /* Higher than middleNav */
+  margin-top: 0;
+}
+
+.navPart2 {
+  border-radius: 0 0px 0px 20px;
+  background-color: white;
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  height: 50px;
+  z-index: 10; /* Higher than middleNav */
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  gap: 1.5rem;
+}
+.navbar-links li{
+  cursor: pointer;
+}
+
+.navbar-links li a:hover{
+  text-decoration: underline;
+  color: #ee7f53;
+}
+.navbar-links li:hover{
+  color: #00031d;
+  font-weight: bold;
+}
+
+.contact-btn {
+  background-color: transparent;
+  color: rgb(36, 36, 36);
+  padding: 0.5rem 1rem;
+  border: none;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 2px solid rgb(36, 36, 36);
+}
+#curved-corner-bottomleft,
+#curved-corner-bottomright,
+#curved-corner-topleft,
+#curved-corner-topright {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+}
+#curved-corner-bottomleft:before,
+#curved-corner-bottomright:before,
+#curved-corner-topleft:before,
+#curved-corner-topright:before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 50%;
+}
+#curved-corner-bottomleft:before {
+  bottom: 0;
+  left: 0;
+  box-shadow: -20px 20px 0 0 red;
+}
+#curved-corner-bottomright:before {
+  bottom: 0;
+  right: 0;
+  box-shadow: 50px 50px 0 0 red;
+}
+#curved-corner-topleft:before {
+  top: 0;
+  left: 0;
+  box-shadow: -20px -20px 0 0 white;
+}
+#curved-corner-topright:before {
+  top: 0;
+  right: 0;
+  box-shadow: 20px -20px 0 0 white;
+}
+
+.shape1{
+  position: absolute;
+  top: 9px;
+  left: 0;
+ 
+  
+}
+
+.shape2{
+  position: absolute;
+  top: 9px;
+  right: 0px;
+ 
+  
+}
+.arrowIcon2{
+  font-size: 50px;
+  color: #00031d;
+  transition: 0.3s;
+  rotate: -45deg;
+}
