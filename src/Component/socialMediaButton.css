@@ -14,9 +14,9 @@
     cursor: pointer;
 }
 .socialMediaBtn:hover{
-    background-color: white;
-    border: 1px solid #000;
-    color: #000;
+    background-color: #dd9a36;
+
+    color: #000000;
 }
 
 .socialMediaIcon{

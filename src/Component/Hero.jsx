@@ -71,6 +71,10 @@ Shop Our Latest Arrivals and For the Perfect Outfit For Occasions.
 <span className='imageCard'></span>
 
             </div>
+            <div className='shoppingBtn'>
+              <div className='shopBtn'>Shop Now</div>
+              <IoArrowDownCircleOutline className='arrowIcon2'/>
+            </div>
             <div className='infoCard'>
               <div className='ratingContainer'>
                 <div className='ratingPart1'>
