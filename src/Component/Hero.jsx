@@ -1,7 +1,7 @@
 // src/components/Hero.js
 import React from 'react';
 import './Hero.css';
-import SocialMediaButton from './socialMediaButton';
+import SocialMediaButton from './SocialMediaButton';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { FaStar } from "react-icons/fa";
 import { IoArrowDownCircleOutline } from "react-icons/io5";
