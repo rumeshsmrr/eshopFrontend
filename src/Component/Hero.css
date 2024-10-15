@@ -51,7 +51,7 @@
     align-items: center;
    height: fit-content;
    position: relative;
-   top:100px;
+   top:70px;
    margin-left: 30px;
    width: 100px;
    padding: 20px;
@@ -135,19 +135,19 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 20px;
+
   gap: 10px;
   width: 100%;
-margin-top: 200px;
+margin-top:5%;
 margin-left: 50px;
 padding: 20px;
 }
 
 .largeTitle{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
-  margin-top: 20px;
-  width: 30%;
+  margin-top: 5px;
+  width: 40%;
   display: flex;
   justify-content: center;
   margin-left: 50px;
@@ -164,7 +164,7 @@ padding: 20px;
   border-radius: 30px;
   position: absolute;
   bottom: 30px;
-  right: 20px;
+  right: 50px;
 }
 
 .midSection{
@@ -185,25 +185,26 @@ padding: 20px;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  width: 350px;
+  width: fit-content;
   padding: 10px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-right: 100px;
-  height: 300px;
+  height: 20%;
   position: relative;
   bottom: 50px;
 }
 
 .imageContainer{
-  width: 350px;
-  height: 200px;
+ position: relative;
+width: 300px;
+height: 200px;
   border-radius: 20px;
   margin: 10px;
   background-image:url(../assets/12345.jpg) ;
   background-size: cover;
-  position: relative;
+  
 }
 
 .rating{
@@ -266,9 +267,9 @@ width: 90%;
 }
 .shoppingBtn{
   display: flex;
-  position: relative;
-  bottom: 0px;
-  left:-10px;
+  position: absolute;
+  bottom: 30px;
+  right: -200px;
   justify-content: center;
   align-items: center;
   gap: 1rem;
